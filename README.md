@@ -1,38 +1,58 @@
-# BuildMyPC - Custom PC Builder
+# 🔧 BuildMyPC - Smart PC Configuration App
 
-A comprehensive web application that helps users design their ideal custom computer setup through an intelligent recommendation engine. The app guides users through their daily needs, work tasks, and usage scenarios, then recommends a complete list of compatible components tailored to their performance requirements and budget.
+**Intelligent PC Builder with AI-powered recommendation engine and real-time compatibility checking.**
 
-## 🚀 Features
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-cyan?style=flat-square&logo=tailwindcss)
 
-### ✅ Core Functionality
-- **Smart Questionnaire**: Analyzes user needs, budget, and preferences
-- **Intelligent Recommendations**: AI-powered component matching
-- **Compatibility Checking**: Ensures all components work together
-- **Budget Optimization**: Maximizes performance within budget constraints
-- **Multiple Build Variants**: Budget, balanced, and high-end options
-- **Export Functionality**: Download parts lists with vendor links
+## 🎯 Project Overview
 
-### 🎯 Key Components
-- **User Onboarding**: Step-by-step wizard for gathering preferences
-- **Recommendation Engine**: Advanced algorithm for component selection
-- **Component Database**: Comprehensive parts database with real specs
-- **Build Display**: Detailed component breakdown with pros/cons
-- **Compatibility Validator**: Real-time compatibility verification
+BuildMyPC simplifies PC building for non-experts by providing **intelligent component recommendations** based on user needs, budget, and usage patterns. The application features an advanced compatibility checker and generates optimized builds through smart algorithms.
 
-## 🛠️ Technology Stack
+### ✨ Key Features
 
-- **Frontend**: Next.js 14 with TypeScript
-- **Styling**: Tailwind CSS with custom design system
-- **Icons**: Lucide React
-- **State Management**: React hooks
-- **Build Tool**: Next.js with Turbopack
+- **🤖 AI Recommendation Engine**: Multi-criteria scoring algorithm (performance/price/compatibility)
+- **🔍 Real-time Compatibility Checking**: Automatic validation of CPU sockets, RAM types, PSU power, case form factors
+- **📋 Adaptive Questionnaire**: Dynamic form with 10+ usage scenarios (Gaming, Video Editing, AI/ML, etc.)
+- **💰 Budget Optimization**: Smart component allocation across performance tiers
+- **🌐 Multilingual Support**: French/English with browser language detection
+- **📊 Interactive Results**: Detailed component specs, vendor links, export options
+- **📁 Multiple Export Formats**: TXT, CSV, JSON, HTML build lists
 
-## 📦 Installation
+## 🏗️ Architecture & Tech Stack
+
+### Frontend
+- **Next.js 14** with App Router
+- **React 18** with modern hooks and Context API
+- **TypeScript** for type safety
+- **Tailwind CSS** for responsive design
+- **Lucide React** for icons
+
+### Backend & Data
+- **Next.js API Routes** for component data serving
+- **JSON Database** with 1000+ PC components
+- **File System API** for local data management
+
+### Core Modules
+- `SmartBuildGenerator.ts` - AI recommendation engine
+- `CompatibilityChecker.ts` - Hardware compatibility validation
+- `ModernRecommendationEngine.ts` - Build generation algorithms
+- Context API for global state management
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd buildmypc
+git clone https://github.com/aliawada27/BuildMyPC.git
+cd BuildMyPC
 ```
 
 2. **Install dependencies**
@@ -40,134 +60,108 @@ cd buildmypc
 npm install
 ```
 
-3. **Run the development server**
+3. **Run development server**
 ```bash
 npm run dev
 ```
 
 4. **Open your browser**
-Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 🏗️ Project Structure
-
 ```
-buildmypc/
-├── src/
-│   ├── app/                    # Next.js App Router
-│   │   ├── globals.css         # Global styles
-│   │   ├── layout.tsx          # Root layout
-│   │   └── page.tsx            # Home page
-│   ├── components/             # React components
-│   │   ├── ui/                 # UI components
-│   │   │   ├── Button.tsx      # Button component
-│   │   │   └── Card.tsx        # Card component
-│   │   ├── Questionnaire.tsx   # User questionnaire
-│   │   └── BuildDisplay.tsx    # Build results display
-│   ├── data/                   # Static data
-│   │   ├── components-database.ts  # PC components data
-│   │   └── questionnaire.ts    # Questionnaire structure
-│   ├── types/                  # TypeScript definitions
-│   │   └── pc-components.ts    # Component interfaces
-│   └── utils/                  # Utility functions
-│       └── recommendation-engine.ts  # Core logic
-├── public/                     # Static assets
-├── package.json               # Dependencies
-├── tailwind.config.js         # Tailwind configuration
-├── tsconfig.json             # TypeScript configuration
-└── README.md                 # This file
+http://localhost:3000
 ```
 
-## 🎮 How to Use
+## 📱 Usage
 
-1. **Start Building**: Click "Start Building My PC" on the homepage
-2. **Answer Questions**: Complete the 4-step questionnaire about your needs
-3. **Review Build**: See your customized PC build with detailed specifications
-4. **Export List**: Download a parts list with vendor links for purchasing
+1. **Start the questionnaire** - Answer questions about your PC usage, budget, and preferences
+2. **Get AI recommendations** - The system generates optimized builds based on your inputs
+3. **Review compatibility** - Automatic checks ensure all components work together
+4. **Export your build** - Download your parts list in multiple formats
 
-## 🧠 Recommendation Engine
+## 🔧 Project Structure
 
-The intelligent recommendation system considers:
-
-- **Usage Patterns**: Gaming, content creation, programming, office work
-- **Performance Requirements**: Budget, balanced, or high-end
-- **Budget Constraints**: Optimal component allocation within budget
-- **Brand Preferences**: Intel vs AMD, NVIDIA vs AMD preferences
-- **Compatibility**: Socket types, form factors, power requirements
-- **Future-Proofing**: PCIe 5.0, DDR5 support based on priorities
-
-## 🔧 Component Categories
-
-The system recommends components across all categories:
-
-- **CPU**: Processors from AMD and Intel
-- **GPU**: Graphics cards from NVIDIA and AMD
-- **Motherboard**: Compatible with selected CPU
-- **Memory**: DDR4/DDR5 RAM with appropriate capacity
-- **Storage**: NVMe SSDs and traditional storage
-- **Power Supply**: Adequate wattage with efficiency ratings
-- **Cooling**: CPU cooling solutions
-- **Case**: Compatible with motherboard form factor
-
-## 🎨 Design System
-
-- **Colors**: Primary blue theme with secondary grays
-- **Typography**: Inter font family
-- **Components**: Consistent button, card, and form styling
-- **Responsive**: Mobile-first design approach
-- **Animations**: Smooth transitions and loading states
-
-## 📱 Responsive Design
-
-The application is fully responsive and works on:
-- Desktop computers
-- Tablets
-- Mobile phones
-- All major browsers
-
-## 🚀 Deployment
-
-To build for production:
-
-```bash
-npm run build
-npm start
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── api/components/     # Component data API
+│   ├── globals.css         # Global styles
+│   ├── layout.tsx          # Root layout
+│   └── page.tsx           # Main application page
+├── components/            # React components
+│   ├── ui/                # Reusable UI components
+│   ├── ModernQuestionnaire.tsx
+│   ├── ModernComponentCard.tsx
+│   └── EnhancedBuildResults.tsx
+├── contexts/              # React Context providers
+│   ├── ComponentsContext.tsx
+│   └── LanguageContext.tsx
+├── data/                  # Static data and configurations
+│   ├── pc_parts_full_database.json
+│   └── modern-questionnaire.ts
+├── services/              # Business logic
+│   ├── SmartBuildGenerator.ts
+│   └── CompatibilityChecker.ts
+├── types/                 # TypeScript type definitions
+├── utils/                 # Utility functions
+└── locales/              # Internationalization files
 ```
 
-The application can be deployed to any platform supporting Next.js:
-- Vercel (recommended)
-- Netlify
-- AWS
-- Google Cloud Platform
+## 🧠 Algorithm Highlights
+
+### Smart Recommendation Engine
+- **Multi-criteria scoring**: Performance, price, compatibility weighted by user preferences
+- **Budget allocation**: Optimal distribution across component categories
+- **Performance tier matching**: Budget/Mid/High/Enthusiast level components
+- **Alternative generation**: Multiple build variants (budget/balanced/performance)
+
+### Compatibility Validation
+- CPU socket ↔ Motherboard compatibility
+- RAM type and capacity limits
+- PSU power requirements with 20% safety margin
+- Case form factor and motherboard size matching
+- Cooling TDP ratings vs CPU requirements
+
+## 🛠️ Built With
+
+- [Next.js](https://nextjs.org/) - React framework
+- [React](https://reactjs.org/) - UI library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Lucide React](https://lucide.dev/) - Icons
+
+## 📈 Performance & Scale
+
+- **Database**: 1000+ PC components with detailed specifications
+- **Response time**: <2s build generation
+- **Compatibility checks**: Real-time validation across 8 component categories
+- **Export options**: 4 different formats (TXT, CSV, JSON, HTML)
+
+## 🔮 Future Enhancements
+
+- [ ] Price tracking and alerts
+- [ ] User accounts and saved builds
+- [ ] Community build sharing
+- [ ] Extended compatibility rules
+- [ ] Mobile app version
+- [ ] Integration with retailer APIs
 
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## 👨‍💻 Author
 
-If you encounter any issues or have questions:
-1. Check the existing issues in the repository
-2. Create a new issue with detailed information
-3. Provide steps to reproduce any bugs
-
-## 🔮 Future Enhancements
-
-- **User Accounts**: Save and manage multiple builds
-- **Live Pricing**: Real-time pricing from multiple vendors
-- **Community Features**: Share builds and rate components
-- **Advanced Filters**: More detailed component filtering
-- **Performance Benchmarks**: Expected gaming/workload performance
-- **Power Calculators**: Detailed PSU requirement calculations
-- **RGB Lighting**: Aesthetic customization options
+**Ali Awada** - *Full Stack Developer*
+- GitHub: [@aliawada27](https://github.com/aliawada27)
+- LinkedIn: [Ali Awada](https://linkedin.com/in/aliawada27)
 
 ---
 
-**Built with ❤️ for PC enthusiasts and builders** 
+*Built with ❤️ and modern web technologies* 

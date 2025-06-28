@@ -1,4 +1,4 @@
-# 🔧 BuildMyPC - Smart PC Configuration App
+# BuildMyPC - Smart PC Configuration App
 
 **Intelligent PC Builder with AI-powered recommendation engine and real-time compatibility checking.**
 
@@ -7,21 +7,21 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-cyan?style=flat-square&logo=tailwindcss)
 
-## 🎯 Project Overview
+## Project Overview
 
 BuildMyPC simplifies PC building for non-experts by providing **intelligent component recommendations** based on user needs, budget, and usage patterns. The application features an advanced compatibility checker and generates optimized builds through smart algorithms.
 
-### ✨ Key Features
+### Key Features
 
-- **🤖 AI Recommendation Engine**: Multi-criteria scoring algorithm (performance/price/compatibility)
-- **🔍 Real-time Compatibility Checking**: Automatic validation of CPU sockets, RAM types, PSU power, case form factors
-- **📋 Adaptive Questionnaire**: Dynamic form with 10+ usage scenarios (Gaming, Video Editing, AI/ML, etc.)
-- **💰 Budget Optimization**: Smart component allocation across performance tiers
-- **🌐 Multilingual Support**: French/English with browser language detection
-- **📊 Interactive Results**: Detailed component specs, vendor links, export options
-- **📁 Multiple Export Formats**: TXT, CSV, JSON, HTML build lists
+- **AI Recommendation Engine**: Multi-criteria scoring algorithm (performance/price/compatibility)
+- **Real-time Compatibility Checking**: Automatic validation of CPU sockets, RAM types, PSU power, case form factors
+- **Adaptive Questionnaire**: Dynamic form with 10+ usage scenarios (Gaming, Video Editing, AI/ML, etc.)
+- **Budget Optimization**: Smart component allocation across performance tiers
+- **Multilingual Support**: French/English with browser language detection
+- **Interactive Results**: Detailed component specs, vendor links, export options
+- **Multiple Export Formats**: TXT, CSV, JSON, HTML build lists
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ### Frontend
 - **Next.js 14** with App Router
@@ -41,7 +41,7 @@ BuildMyPC simplifies PC building for non-experts by providing **intelligent comp
 - `ModernRecommendationEngine.ts` - Build generation algorithms
 - Context API for global state management
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -70,14 +70,14 @@ npm run dev
 http://localhost:3000
 ```
 
-## 📱 Usage
+## Usage
 
 1. **Start the questionnaire** - Answer questions about your PC usage, budget, and preferences
 2. **Get AI recommendations** - The system generates optimized builds based on your inputs
 3. **Review compatibility** - Automatic checks ensure all components work together
 4. **Export your build** - Download your parts list in multiple formats
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 src/
@@ -105,7 +105,7 @@ src/
 └── locales/              # Internationalization files
 ```
 
-## 🧠 Algorithm Highlights
+## Algorithm Highlights
 
 ### Smart Recommendation Engine
 - **Multi-criteria scoring**: Performance, price, compatibility weighted by user preferences
@@ -120,7 +120,7 @@ src/
 - Case form factor and motherboard size matching
 - Cooling TDP ratings vs CPU requirements
 
-## 🛠️ Built With
+## Built With
 
 - [Next.js](https://nextjs.org/) - React framework
 - [React](https://reactjs.org/) - UI library
@@ -128,14 +128,14 @@ src/
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Lucide React](https://lucide.dev/) - Icons
 
-## 📈 Performance & Scale
+## Performance & Scale
 
 - **Database**: 1000+ PC components with detailed specifications
 - **Response time**: <2s build generation
 - **Compatibility checks**: Real-time validation across 8 component categories
 - **Export options**: 4 different formats (TXT, CSV, JSON, HTML)
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Price tracking and alerts
 - [ ] User accounts and saved builds
@@ -144,7 +144,7 @@ src/
 - [ ] Mobile app version
 - [ ] Integration with retailer APIs
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -152,15 +152,15 @@ src/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Ali Awada** - *Full Stack Developer*
 - GitHub: [@aliawada27](https://github.com/aliawada27)
-- LinkedIn: [Ali Awada](https://linkedin.com/in/aliawada27)
+- LinkedIn: [Ali Awada](https://www.linkedin.com/in/ali-awada27/)
 
 ---
 

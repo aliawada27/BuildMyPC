@@ -1,0 +1,220 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "export": "Exporter",
+    "close": "Fermer",
+    "yes": "Oui",
+    "no": "Non",
+    "or": "ou",
+    "and": "et",
+    "currency": "$"
+  },
+  "nav": {
+    "title": "BuildMyPC",
+    "subtitle": "Configurateur PC Intelligent"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English",
+    "selectLanguage": "Choisir la langue"
+  },
+  "home": {
+    "hero": {
+      "title": "Créez Votre",
+      "titleHighlight": "PC Parfait",
+      "subtitle": "Notre moteur de recommandation intelligent analyse vos besoins, votre budget et vos préférences pour recommander la combinaison parfaite de composants compatibles pour votre build idéal.",
+      "startButton": "Commencer Mon PC"
+    },
+    "features": {
+      "smart": {
+        "title": "Recommandations Intelligentes",
+        "description": "Notre IA analyse vos habitudes d'utilisation et votre budget pour recommander des composants parfaitement assortis."
+      },
+      "compatibility": {
+        "title": "Compatibilité Garantie",
+        "description": "Tous les builds recommandés sont minutieusement vérifiés pour les problèmes de compatibilité avant présentation."
+      },
+      "budget": {
+        "title": "Optimisé Budget",
+        "description": "Obtenez les meilleures performances par euro avec des builds optimisés pour votre gamme de budget spécifique."
+      }
+    }
+  },
+  "questionnaire": {
+    "title": "Configuration PC Personnalisée",
+    "subtitle": "Question {{current}} sur {{total}} • {{time}} restantes",
+    "showSummary": "Voir le résumé",
+    "hideSummary": "Masquer",
+    "answered": "✓ Répondu",
+    "pending": "○ En attente",
+    "generatePC": "✨ Générer mon PC",
+    "tip": {
+      "title": "Conseil :",
+      "usage": "Sélectionnez toutes les activités que vous pratiquez régulièrement. Plus vos réponses sont précises, meilleures seront nos recommandations !"
+    },
+    "summary": {
+      "title": "📋 Résumé de vos réponses",
+      "responses": "{{count}} réponse(s) enregistrée(s)",
+      "noResponses": "Aucune réponse pour le moment",
+      "autoSaved": "Vos réponses sont sauvegardées automatiquement"
+    }
+  },
+  "questions": {
+    "usage": {
+      "title": "Comment allez-vous utiliser votre PC ?",
+      "description": "Sélectionnez vos principales activités pour adapter les recommandations à vos besoins spécifiques.",
+      "primaryUse": "Quelles seront vos principales activités ?",
+      "gamingResolution": "Si vous jouez, à quelle résolution ?",
+      "performanceLevel": "Quel niveau de performance visez-vous ?"
+    },
+    "budget": {
+      "title": "Quel est votre budget ?",
+      "description": "Définissez votre budget pour que nous puissions optimiser le choix des composants selon vos moyens.",
+      "totalBudget": "Budget total pour le PC (hors périphériques)",
+      "flexibility": "Quelle flexibilité avez-vous sur ce budget ?"
+    },
+    "preferences": {
+      "title": "Préférences & Priorités",
+      "description": "Aidez-nous à personnaliser votre build selon vos préférences spécifiques.",
+      "cpuPreference": "Avez-vous une préférence pour le processeur ?",
+      "gpuPreference": "Avez-vous une préférence pour la carte graphique ?",
+      "quietOperation": "Importance du fonctionnement silencieux",
+      "energyEfficiency": "Importance de l'efficacité énergétique",
+      "futureProofing": "Importance de l'évolutivité future"
+    },
+    "requirements": {
+      "title": "Exigences Spéciales",
+      "description": "Derniers détails pour finaliser votre configuration parfaite.",
+      "sizeConstraint": "Avez-vous des contraintes de taille ?",
+      "additionalRequirements": "Exigences supplémentaires (optionnel)"
+    }
+  },
+  "usageOptions": {
+    "gamingAAA": {
+      "label": "Gaming AAA",
+      "description": "Jeux récents en haute qualité"
+    },
+    "gamingCasual": {
+      "label": "Gaming Casual",
+      "description": "Jeux indépendants et anciens"
+    },
+    "videoEditing": {
+      "label": "Montage Vidéo",
+      "description": "4K, rendu, streaming"
+    },
+    "photoEditing": {
+      "label": "Retouche Photo",
+      "description": "Photoshop, Lightroom"
+    },
+    "programming": {
+      "label": "Développement",
+      "description": "IDE, compilation, virtualisation"
+    },
+    "office": {
+      "label": "Bureautique",
+      "description": "Office, navigation web"
+    },
+    "streaming": {
+      "label": "Streaming",
+      "description": "OBS, encodage en direct"
+    },
+    "modeling3d": {
+      "label": "Modélisation 3D",
+      "description": "Blender, CAD, architecture"
+    },
+    "aiMl": {
+      "label": "IA & Machine Learning",
+      "description": "TensorFlow, PyTorch"
+    },
+    "general": {
+      "label": "Usage Général",
+      "description": "Multitâche, polyvalent"
+    }
+  },
+  "options": {
+    "resolutions": {
+      "1080p": "1080p (Full HD)",
+      "1440p": "1440p (2K)",
+      "4k": "4K (Ultra HD)",
+      "noGaming": "Je ne joue pas"
+    },
+    "performance": {
+      "budget": "Économique (Ça fonctionne)",
+      "balanced": "Équilibré (Bon rapport qualité/prix)",
+      "high": "Performant (Hautes performances)",
+      "extreme": "Extrême (Le meilleur possible)"
+    },
+    "flexibility": {
+      "strict": "Strict - Ne peut pas dépasser",
+      "flexible": "Flexible - Jusqu'à 10% de plus",
+      "veryFlexible": "Très flexible - Jusqu'à 20% pour des gains significatifs"
+    },
+    "brands": {
+      "noPreference": "Pas de préférence",
+      "intel": "Intel",
+      "amd": "AMD",
+      "nvidia": "NVIDIA"
+    },
+    "sizes": {
+      "noConstraint": "Aucune contrainte",
+      "compact": "Compact (Mini-ITX)",
+      "standard": "Standard (Micro-ATX)",
+      "full": "Grand format (ATX)"
+    },
+    "importance": {
+      "1": "Pas important",
+      "3": "Peu important", 
+      "5": "Moyennement important",
+      "7": "Important",
+      "9": "Très important",
+      "10": "Extrêmement important"
+    }
+  },
+  "build": {
+    "title": "Votre Configuration PC",
+    "subtitle": "Nous avons créé la configuration parfaite selon vos besoins",
+    "totalPrice": "Prix Total",
+    "estimatedPower": "Consommation Estimée",
+    "performanceScore": "Score Performance",
+    "valueScore": "Rapport Qualité/Prix",
+    "startOver": "Recommencer",
+    "exportBuild": "Exporter la Configuration",
+    "compatibility": {
+      "compatible": "✓ Build Compatible",
+      "issues": "⚠ Problèmes de Compatibilité",
+      "warnings": "Avertissements :",
+      "errors": "Erreurs :",
+      "suggestions": "Suggestions :"
+    },
+    "summary": {
+      "title": "Résumé du Build",
+      "recommendations": "Recommandations"
+    },
+    "components": {
+      "cpu": "Processeur (CPU)",
+      "gpu": "Carte Graphique (GPU)",
+      "motherboard": "Carte Mère",
+      "memory": "Mémoire (RAM)",
+      "storage": "Stockage",
+      "powerSupply": "Alimentation (PSU)",
+      "case": "Boîtier",
+      "cooling": "Refroidissement"
+    }
+  },
+  "loading": {
+    "database": "Chargement de la base de données...",
+    "generating": "Génération de votre configuration...",
+    "please_wait": "Veuillez patienter"
+  },
+  "errors": {
+    "database_unavailable": "Base de données indisponible",
+    "generation_failed": "Échec de la génération du build",
+    "no_build_possible": "Aucune configuration possible dans le budget spécifié"
+  }
+} 
